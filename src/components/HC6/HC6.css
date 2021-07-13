@@ -1,0 +1,19 @@
+.HC6 {
+  display: flex;
+  flex-direction: row;
+  margin: 3% 3%;
+  padding: 3% 3%;
+  background-color: #ffffff;
+  border-radius: 11px 11px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.HC6logo {
+  width: 20%;
+}
+
+.fampay--arrow {
+  width: 7%;
+  height: 3%;
+}
