@@ -1,0 +1,36 @@
+.HC9{
+    display: flex;
+    flex-direction: row;
+    padding: 3% 3%;
+    overflow-x: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.HC9::-webkit-scrollbar {display:none;}
+
+.HC9a, .HC9b, .HC9c{
+    height: 13rem;
+    border-radius: 11px 11px;
+}
+
+.HC9a{
+    background-image: linear-gradient(to bottom right, #FFD428 , #FBAF03);
+    width: 3.5rem;
+    margin-right: 5%;
+    flex-shrink: 0;
+}
+
+.HC9b{
+    background-image: linear-gradient(to bottom right, #454AA6 , #FF8749);
+    width: 7.5rem;
+    margin-right: 5%;
+    flex-shrink: 0;
+}
+
+.HC9c{
+    background-image: linear-gradient(to bottom right, #28FFA5 , #000);
+    width: 15.5rem;
+    margin-right: 5%;
+    flex-shrink: 0;
+}
