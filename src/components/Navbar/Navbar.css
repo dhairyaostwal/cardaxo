@@ -1,7 +1,8 @@
-.fampay--logo{
-    height: 3rem;
-    display: flex;
-    justify-content: center;
-    padding: 1% 0;
-    background-color: #fff;
+.fampay--logo {
+  height: 2.7rem;
+  display: flex;
+  top: 50%;
+  transform: translateY(50%);
+  justify-content: center;
+  padding: 3% 3%;
 }
