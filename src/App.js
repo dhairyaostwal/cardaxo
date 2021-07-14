@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Navbar from './components/Navbar/Navbar';
+import HC9 from './components/HC9/HC9';
+import HC5 from './components/HC5/HC5';
+import HC6 from './components/HC6/HC6';
+import HC3 from './components/HC3/HC3';
+import HC1 from './components/HC1/HC1';
 
-function App() {
+export function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <HC3 />
+      <HC6 />
+      <HC5 />
+      <HC9 />
+      <HC1 />
+    </>
   );
 }
-
-export default App;
