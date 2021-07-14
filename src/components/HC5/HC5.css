@@ -1,0 +1,43 @@
+.HC5 {
+  display: flex;
+  margin: 3% 3%;
+  padding: 3% 3%;
+  border-radius: 11px 11px;
+  flex-shrink: 0;
+  
+  width: fit-content;
+}
+
+.HC5Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.HC5Container::-webkit-scrollbar {
+  display: none;
+}
+
+.HC5Container--NoScroll {
+  overflow: hidden;
+}
+
+.fampay--gravatar--bg {
+  width: 100%;
+}
+
+.fampay--gravatar--holder {
+  position: absolute;
+  transform: translate(0, -5%);
+  width: 100%;
+  display: flex;
+  padding: 1%;
+}
+
+.fampay--gravatar {
+  width: 5rem;
+  margin-right: 5%;
+}
