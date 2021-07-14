@@ -1,14 +1,22 @@
 import React from 'react';
 import './HC9.css';
+import { HC9Data } from '../../data/HC9Data';
 
-export default function HC9() {
+function HC9Component(props) {
   return (
-    <div style={{ overflow: 'none' }}>
-      <div className="HC9">
-        <div className="HC9a"></div>
-        <div className="HC9b"></div>
-        <div className="HC9c"></div>
+    <div className="HC9">
+      <img className="HC9--img" src={props.bg_image.image_url} />
+      {/* <div className="fampay--gravatar--holder"> */}
+        <div className="HC9--content">
+        <a href={props.url}>
+          {props.name}
+          </a>
+        {/* </div> */}
       </div>
     </div>
   );
+}
+
+export default function HC9() {
+  return <div className="HC9Container">{HC9Data.map(HC9Component)}</div>;
 }
