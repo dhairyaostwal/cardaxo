@@ -1,0 +1,31 @@
+.HC3{
+    display: flex;
+    margin: 3% 3%;
+    border-radius: 11px 11px;
+    /* background-image: url("https://westeros-staging.s3.amazonaws.com/media/images/generic/5e97239d1bd747878828852d4f397361.png"); */
+    background-repeat: no-repeat;
+    height: 25rem;
+    background-position: center;
+    background-size: cover; 
+}
+
+.HC3--content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3% 3%;
+    margin: 8% 3% 0 3%;
+    transform: translate(0, 8%);
+}
+
+.HC3--btn{
+    /* background-color: black; */
+    /* color: white; */
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 6px 6px;
+    padding: 3% 7%;
+    transform: translate(-5rem,0);
+    text-decoration: none;
+}
