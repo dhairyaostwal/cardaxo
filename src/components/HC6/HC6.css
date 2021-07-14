@@ -16,4 +16,5 @@
 .fampay--arrow {
   width: 7%;
   height: 3%;
+  cursor: pointer;
 }
