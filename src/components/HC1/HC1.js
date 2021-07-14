@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react';
-import axios from 'axios';
+import React from 'react';
 import './HC1.css';
 import { HC1Data } from '../../data/HC1Data';
 import { HC1DataSmallBox } from '../../data/HC1DataSmallBox';
