@@ -6,6 +6,15 @@
   height: 25rem;
   background-position: center;
   background-size: cover;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.HC3 h1{
+  font-weight: 600;
+}
+
+.HC3 h3{
+  font-weight: 500;
 }
 
 .HC3--content {
@@ -19,13 +28,14 @@
 }
 
 .HC3--btn {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   border: none;
   border-radius: 6px 6px;
   padding: 3% 7%;
   transform: translate(-5rem, 0);
   text-decoration: none;
   cursor: pointer;
+  font-weight: 500;
 }
 
 .NewHC3 {

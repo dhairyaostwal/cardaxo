@@ -6,6 +6,7 @@
   border-radius: 11px 11px;
   align-items: center;
   width: fit-content;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .HC1 a {
