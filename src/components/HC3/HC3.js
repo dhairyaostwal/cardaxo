@@ -72,7 +72,9 @@ function HC3Component(props) {
             className="HC3"
           >
             <div className="HC3--content">
-              <h1 style={{ whiteSpace: 'nowrap' }}>{props.title}</h1>
+              <h1 style={{ whiteSpace: 'pre-line' }}>
+                Hey Dhairya {props.formatted_title.text}
+              </h1>
               <h3 style={{ color: '#131313', whiteSpace: 'nowrap' }}>
                 {props.description}
               </h3>
