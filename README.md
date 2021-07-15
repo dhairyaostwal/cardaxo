@@ -1,70 +1,79 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Fampay Frontend Task
 
-## Available Scripts
+## Task Description
 
-In the project directory, you can run:
+Develop a Frontend App ( Mobile View ) to display contextual cards
 
-### `npm start`
+## Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[Visit the URL here](https://dhairyaforfampay.netlify.app/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  
+## Screenshots
 
-### `npm test`
+<h1 align="center"><img width="310" alt="Screenshot 2021-07-15 at 12 55 23" src="https://user-images.githubusercontent.com/50984984/125748538-45b8d121-8b12-48a0-b4d6-8e2524f913ad.png"><br/><br/>
+<img width="310" alt="Screenshot 2021-07-15 at 12 55 44" src="https://user-images.githubusercontent.com/50984984/125748720-c9b327bc-5e4f-4fe5-8118-10e4b7c6b71a.png"></h1>
+  
+## Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Client:** ReactJS
 
-### `npm run build`
+**NPM Packages:** react-simple-pull-to-refresh
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  
+## Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Contextual Cards
+- Sliding Cards of fixed and variable width
+- Pull to Refresh
+- 
+- Long press button functionality
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Instructions To Run Locally
 
-### `npm run eject`
+Clone the project
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+  git clone https://github.com/offencive/FamPay-Frontend-Task.git
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Go to the project directory
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+  cd Fampay-Frontend-Task
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Install dependencies
 
-## Learn More
+```bash
+  npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Start the server
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+  npm run start
+```
 
-### Code Splitting
+## Guidelines For Better Project Navigation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+As per the Figma UI and API provided, variable, files, data files and folder naming conventions have been followed. 
 
-### Analyzing the Bundle Size
+## Lessons Learned
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Firstly I would like to present my gratitude from the core of my heart to the team at FamPay for giving me this opportunity! A Big Thank You!
 
-### Making a Progressive Web App
+This assignment was a journey of countering fears. I learnt several new concepts like pull down to reload, contextual cards which slide vertically and many more, some of which I used to fear from. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Team at FamPay is a big inspiration ❤️ ✨ since they're working for a very noble cause that is Financial Literacy and Financial Inclusion starting from teenagers which was neglected for a very long time. My best wishes to everyone in FamPay! Always your biggest Fanboy 🤟 
+  
+## 🚀 About Me
 
-### Advanced Configuration
+Hey! I am Dhairya Ostwal, a CSE undergrad from India. I mainly work on frontend web development and love building innovative products. Previously served as a Frontend Developer in a NASSCOM backed HRTech Startup.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+🌱 Prior to that I served as a Business Development Intern in a legal-tech startup driving Pre-Sales & Expansion. So, you can also call me *a **Business Dev turned Developer*** 👨🏻‍💻
 
-### Deployment
+Would love to connect on 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![LinkedIn](https://img.shields.io/badge/-linkedin-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/dhairyaostwal/) [![Personal Blog](https://img.shields.io/badge/blog-%23E4405F.svg?&style=for-the-badge&logo=netlify&logoColor=white)](https://dhairyablogs.netlify.app/first-product-job/) [![Medium](https://img.shields.io/badge/-medium-black?style=for-the-badge&logo=medium)](https://medium.com/@dhairyaostwal)
