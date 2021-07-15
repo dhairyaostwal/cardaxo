@@ -8,7 +8,7 @@
   width: fit-content;
 }
 
-.HC1 a{
+.HC1 a {
   text-decoration: none;
   color: #000;
 }
@@ -18,13 +18,16 @@
   height: 1.5rem;
   margin-right: 5%;
 }
+.HC1Container {
+  margin: 7% 0 0 0;
+}
 
 .HC1Container--NoScroll,
 .HC1Container {
   display: flex;
   overflow-x: scroll;
-  -ms-overflow-style: none; 
-  scrollbar-width: none; 
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .HC1Container::-webkit-scrollbar {

@@ -27,6 +27,7 @@
   overflow-x: scroll;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  margin: 7% 0;
 }
 
 .HC9Container::-webkit-scrollbar {
