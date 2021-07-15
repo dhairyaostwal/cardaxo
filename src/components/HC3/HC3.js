@@ -6,7 +6,7 @@ import './HC3.css';
 function HC3Component(props) {
   const [pressed, isPressed] = useState(false);
   const divRef = useRef();
-  console.log(pressed);
+  // console.log(pressed);
 
   return (
     <>
@@ -21,8 +21,10 @@ function HC3Component(props) {
           className="HC3"
         >
           <div className="HC3--content">
-            <h1>{props.title}</h1>
-            <h3 style={{ color: '#131313' }}>{props.description}</h3>
+            <h1>Hey Dhairya {props.formatted_title.text}</h1>
+            <h3 style={{ color: '#131313', marginTop: '-0.5rem' }}>
+              {props.formatted_description.text}
+            </h3>
             <a
               // href={props.cta[0].url}
               onClick={() => isPressed((pressed) => !pressed)}
@@ -69,34 +71,6 @@ function HC3Component(props) {
         </div>
       )}
     </>
-
-    // <>
-    // <div
-    //   id="HC3"
-    //   ref={divRef}
-    //   style={{
-    //     backgroundColor: `${props.bg_color}`,
-    //     backgroundImage: `url(${props.bg_image.image_url})`,
-    //   }}
-    //   className="HC3"
-    // >
-    //   <div className="HC3--content">
-    //     <h1>{props.title}</h1>
-    //     <h3 style={{ color: '#131313' }}>{props.description}</h3>
-    //     <a
-    //       // href={props.cta[0].url}
-    //       onClick={() => isPressed((pressed) => !pressed)}
-    //       style={{
-    //         backgroundColor: `${props.cta[0].bg_color}`,
-    //         color: `${props.cta[0].text_color}`,
-    //       }}
-    //       className="HC3--btn"
-    //     >
-    //       {props.cta[0].text}
-    //     </a>
-    //   </div>
-    // </div>
-    // </>
   );
 }
 
