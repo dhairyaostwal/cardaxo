@@ -5,8 +5,10 @@
   padding: 1% 5%;
   border-radius: 11px 11px;
   align-items: center;
-  width: fit-content;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 100%;
+  box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+  justify-content: space-evenly;
+  white-space: nowrap;
 }
 
 .HC1 a {

@@ -1,6 +1,6 @@
 export const HC1Data = [
   {
-    name: 'View all txn',
+    name: 'View all Transactions',
     title: 'Transactions',
     icon: {
       image_type: 'ext',

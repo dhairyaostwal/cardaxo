@@ -8,7 +8,7 @@ function HC1Component(props) {
     <div style={{ backgroundColor: `${props.bg_color}` }} className="HC1">
       <img src={props.icon.image_url} className="HC1--logo" />
       <h3 style={{ fontWeight: '500' }}>
-        <a href={`${props.url}`}>{props.title}</a>
+        <a href={`${props.url}`}>{props.name}</a>
       </h3>
     </div>
   );

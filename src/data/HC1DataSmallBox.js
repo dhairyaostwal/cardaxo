@@ -16,8 +16,8 @@ export const HC1DataSmallBox = [
       is_disabled: false
     },
     {
-      name: 'SmallCard',
-      title: 'AryaStark',
+      name: 'AryaStark',
+      title: 'SmallCard',
       icon: {
         image_type: 'ext',
         image_url:
