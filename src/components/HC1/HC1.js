@@ -3,6 +3,8 @@ import './HC1.css';
 import { HC1Data } from '../../data/HC1Data';
 import { HC1DataSmallBox } from '../../data/HC1DataSmallBox';
 
+// building prop container
+
 function HC1Component(props) {
   return (
     <div style={{ backgroundColor: `${props.bg_color}` }} className="HC1">
@@ -13,6 +15,8 @@ function HC1Component(props) {
     </div>
   );
 }
+
+// mapping data to the prop container
 
 export default function HC1() {
   return (

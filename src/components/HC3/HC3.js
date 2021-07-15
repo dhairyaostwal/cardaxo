@@ -1,17 +1,22 @@
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 import { HC3Data } from '../../data/HC3Data';
 import './HC3.css';
 import bell from '../../img/bell.png';
 import cross from '../../img/cross.png';
 
+// building prop container
+
 function HC3Component(props) {
   const [pressed, isPressed] = useState(false);
-  const divRef = useRef();
+
+  // function for hiding the container as per dismiss and notify clicked
 
   function removeHC3() {
     var myobj = document.getElementById('NewHC3');
     myobj.remove();
   }
+
+  // function to open the hidden part upon detecting delay => Long press
 
   function longPress() {
     setTimeout(function () {
@@ -22,10 +27,15 @@ function HC3Component(props) {
 
   return (
     <>
+    {/* using ternary operator it displays 
+    
+      pressed => new screen with message boxes and screen slide to the the right
+      not pressed => default screen
+
+     */}
       {!pressed ? (
         <div
           id="HC3"
-          ref={divRef}
           style={{
             backgroundColor: `${props.bg_color}`,
             backgroundImage: `url(${props.bg_image.image_url})`,
@@ -97,6 +107,8 @@ function HC3Component(props) {
     </>
   );
 }
+
+// mapping data to the prop container
 
 export default function HC3() {
   return <div>{HC3Data.map(HC3Component)}</div>;

@@ -2,6 +2,8 @@ import React from 'react';
 import './HC9.css';
 import { HC9Data } from '../../data/HC9Data';
 
+// building prop container
+
 function HC9Component(props) {
   return (
     <div className="HC9">
@@ -16,6 +18,8 @@ function HC9Component(props) {
     </div>
   );
 }
+
+// mapping data to the prop container
 
 export default function HC9() {
   return <div className="HC9Container">{HC9Data.map(HC9Component)}</div>;

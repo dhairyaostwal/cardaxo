@@ -2,6 +2,8 @@ import React from 'react';
 import './HC5.css';
 import { HC5Data } from '../../data/HC5Data';
 
+// building prop container
+
 function HC5Component(props) {
   return (
     <div style={{ backgroundColor: `${props.bg_color}` }} className="HC5">
@@ -11,6 +13,8 @@ function HC5Component(props) {
     </div>
   );
 }
+
+// mapping data to the prop container
 
 export default function HC5() {
   return (
