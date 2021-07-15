@@ -1,12 +1,24 @@
 import React, { useRef, useState } from 'react';
 import { HC3Data } from '../../data/HC3Data';
-import HC3onPress from './HC3onPress';
 import './HC3.css';
+import bell from '../../img/bell.png';
+import cross from '../../img/cross.png';
 
 function HC3Component(props) {
   const [pressed, isPressed] = useState(false);
   const divRef = useRef();
-  // console.log(pressed);
+
+  function removeHC3() {
+    var myobj = document.getElementById('NewHC3');
+    myobj.remove();
+  }
+
+  function longPress() {
+    setTimeout(function () {
+      console.log('Long Press');
+      isPressed((pressed) => !pressed);
+    }, 500);
+  }
 
   return (
     <>
@@ -26,8 +38,8 @@ function HC3Component(props) {
               {props.formatted_description.text}
             </h3>
             <a
-              // href={props.cta[0].url}
-              onClick={() => isPressed((pressed) => !pressed)}
+              id="HC3--btn"
+              onClick={longPress}
               style={{
                 backgroundColor: `${props.cta[0].bg_color}`,
                 color: `${props.cta[0].text_color}`,
@@ -39,8 +51,17 @@ function HC3Component(props) {
           </div>
         </div>
       ) : (
-        <div className="NewHC3">
-          <HC3onPress />
+        <div id="NewHC3" className="NewHC3">
+          <div className="HC3--hidden--payment">
+            <div className="messageComponent" onClick={removeHC3}>
+              <img style={{ width: '2rem', height: 'auto' }} src={bell} />
+              <div>remind later</div>
+            </div>
+            <div id="cross" className="messageComponent" onClick={removeHC3}>
+              <img style={{ width: '2rem', height: 'auto' }} src={cross} />
+              <div>dismiss now</div>
+            </div>
+          </div>
           <div
             style={{
               transform: 'translateX(-1%)',
@@ -56,7 +77,8 @@ function HC3Component(props) {
                 {props.description}
               </h3>
               <a
-                onClick={() => isPressed((pressed) => !pressed)}
+                id="HC3--btn"
+                onClick={longPress}
                 style={{
                   transform: 'translate(-10rem,0)',
                   backgroundColor: `${props.cta[0].bg_color}`,
