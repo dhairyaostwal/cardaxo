@@ -35,13 +35,13 @@ Develop a Frontend App ( Mobile View ) to display contextual cards
 Clone the project
 
 ```bash
-  git clone https://github.com/offencive/FamPay-Frontend-Task.git
+  git clone https://github.com/dhairyaostwal/cardaxo.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd Fampay-Frontend-Task
+  cd cardaxo
 ```
 
 Install dependencies
