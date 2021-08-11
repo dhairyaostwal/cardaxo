@@ -1,5 +1,5 @@
 
-<h1 align="center"><img width="310" alt="Screenshot 2021-07-15 at 12 55 23" src="https://user-images.githubusercontent.com/50984984/129025413-a72af3b8-c3ac-409a-b481-28886ba69987.png"><br><br>
+<h1 align="center"><img width="310" alt="Screenshot 2021-07-15 at 12 55 23" src="https://user-images.githubusercontent.com/50984984/129025413-a72af3b8-c3ac-409a-b481-28886ba69987.png">
 
 ## Description
 
