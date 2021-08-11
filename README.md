@@ -1,7 +1,7 @@
 
-# Fampay Frontend Task
+# React Contextual Cards
 
-## Task Description
+## Description
 
 Develop a Frontend App ( Mobile View ) to display contextual cards
 
@@ -27,7 +27,7 @@ Develop a Frontend App ( Mobile View ) to display contextual cards
 - Contextual Cards
 - Sliding Cards of fixed and variable width
 - Pull to Refresh
-- 
+- Card deletion/hiding on click
 - Long press button functionality
 
 ## Instructions To Run Locally
@@ -62,11 +62,7 @@ As per the Figma UI and API provided, variable, files, data files and folder nam
 
 ## Lessons Learned
 
-Firstly I would like to present my gratitude from the core of my heart to the team at FamPay for giving me this opportunity! A Big Thank You!
-
-This assignment was a journey of countering fears. I learnt several new concepts like pull down to reload, contextual cards which slide vertically and many more, some of which I used to fear from. 
-
-Team at FamPay is a big inspiration ❤️ ✨ since they're working for a very noble cause that is Financial Literacy and Financial Inclusion starting from teenagers which was neglected for a very long time. My best wishes to everyone in FamPay! Always your biggest Fanboy 🤟 
+This project was a journey of countering fears. I learnt several new concepts like pull down to reload, contextual cards which slide vertically and many more, some of which I used to fear from. 
   
 ## 🚀 About Me
 
